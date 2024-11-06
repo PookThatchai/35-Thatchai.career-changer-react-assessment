@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Home from "../../../src/assets/Home";
+import Datab from "./Datab";
 
 const AdminPage = () => {
   const [name, setName] = useState("");
@@ -54,7 +54,7 @@ const AdminPage = () => {
           SAVE
         </button>
       </div>
-      <Home users={users} />
+      <Datab users={users} />
     </div>
   );
 };

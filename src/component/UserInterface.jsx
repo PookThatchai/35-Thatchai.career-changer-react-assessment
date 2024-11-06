@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Home from "../../../src/assets/Home";
 import AdminPage from "./AdminInterface";
 
 const UserInterface = ({ users }) => {

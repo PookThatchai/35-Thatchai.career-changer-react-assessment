@@ -4,11 +4,15 @@ import Navbar from "./component/Navbar";
 import AdminInterface from "./component/AdminInterface";
 import UserInterface from "./component/UserInterface";
 
-function App() {
+function Home() {
   const [sectorBtn, setSectorBtn] = useState("");
 
-  const showAdminPage = () => setSectorBtn("A");
-  const showUserInterface = () => setSectorBtn("B");
+  const showAdminPage = () => {
+    setSectorBtn("A");
+  };
+  const showUserInterface = () => {
+    setSectorBtn("B");
+  };
 
   return (
     <div>
@@ -37,4 +41,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
